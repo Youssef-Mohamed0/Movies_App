@@ -1,4 +1,5 @@
 class WatchList {
+
   final String poster;
   final String title;
   final String date;
