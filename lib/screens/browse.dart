@@ -6,7 +6,6 @@ import '../api/api.dart';
 import '../basis/components.dart';
 import '../models/movie_browse.dart';
 
-
 class Browse extends StatefulWidget {
   const Browse({super.key});
 

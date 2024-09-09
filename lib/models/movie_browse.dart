@@ -47,10 +47,10 @@ class _MovieBrowseState extends State<MovieBrowse> {
                 {
                   return GridView.builder(
                     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 3,  // Number of columns in the grid
+                      crossAxisCount: 3,
                       crossAxisSpacing: 10.0,
                       mainAxisSpacing: 10.0,
-                      childAspectRatio: 0.5,  // Adjust the aspect ratio of the grid items
+                      childAspectRatio: 0.5,
                     ),
                     itemBuilder: (context,index){
                       final movie = snapshot.data!.movies[index];
